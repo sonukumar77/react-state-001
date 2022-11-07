@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  /* border: 2px solid red; */
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+.mainBox {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  /* border: 2px solid rgb(0, 42, 255); */
+  display: block;
+  margin: auto;
+}
+
+header {
+  /* border: 2px solid rgb(26, 255, 0); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.lightMode {
+  background-color: white;
+
+}
+
+.darkMode {
+  background-color: black;
+
+}
+
+.text-pink {
+  color: rgb(215, 64, 89);
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+
+.mainContent .card h3 {
+  margin-top: 1.5rem;
+}
+
+.mainContent .card p {
+  margin-top: 0.5rem;
+  font-size: 10px;
+}
+
+button {
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dark-btn {
+  background-color: rgb(224, 145, 158);
+  color: black;
+}
+
+.light-btn {
+  background-color: rgb(215, 64, 89);
+  color: white;
+}
